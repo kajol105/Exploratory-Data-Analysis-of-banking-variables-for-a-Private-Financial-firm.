@@ -67,5 +67,48 @@ The code snippet identifies categorical and numerical variables within a dataset
 ![Screenshot (813)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/c1446927-01ad-47ee-8234-c43e3783db02)
 
 ![Screenshot (814)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/ee686d04-9cb0-4129-91b9-2e6da14a6f58)
+![Screenshot (815)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/666fac0e-22f5-46db-91f3-daf297930151)
+![Screenshot (816)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/03a8ae7d-1a33-467b-82fd-0c34d3075690)
+
+![Screenshot (817)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/9b1a91ad-c692-462e-9cf3-7ca9e5bdfdce)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+![Screenshot (818)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/9c01f4ac-aad3-4e4f-a005-e2103308c334)
+
+![Screenshot (819)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/22e7385e-4537-4a1a-a2c9-d97b56e89bf8)
+![Screenshot (820)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/8368fac5-baee-47e5-848f-c8faf684699e)
+
+![Screenshot (821)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/86a25fb9-36f6-40c3-be0b-dabc72f2a163)
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/1a9a1ca6-2755-4c71-bd4e-e0f785d629a2)
+![Screenshot (822)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/4f06e804-b35a-4752-a9e1-436b39a7161c)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+for col in num_data:
+    sns.boxplot(num_data[col])
+    plt.show()
+![download](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/b9197062-6413-4d95-9416-f4cc3ed9387a)
+
+![download](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/2473e517-d40a-40ba-8e52-5210c5b8560d)
+
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/6b9ad74d-2536-4cd6-896f-9f4fc964d3da)
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/26fa7f09-95b9-49a4-9668-7870d1a5d045)
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/bea1ae95-3b2b-45e6-81a6-442ba5b4892f)
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/0e1ac4f2-5093-43dc-bcd0-3025e4cf5e9c)
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/0c607c30-a339-43fe-9739-5a38ebf0e6bd)
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/b9358eac-1d6a-43e7-8b73-5470df45d6ed)
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/5aced602-2a6b-4fb6-9fa7-4dfc3b46c8a9)
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/a80f239a-9654-4193-8aa3-95bd860208b1)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+num_data['Amount_Requested'] = num_data.Amount_Requested.clip(lower = lc, upper = uc)
+sns.boxplot(num_data.Amount_Requested)
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/302c7132-a0ba-4ae7-bf31-79c926b63798)
 
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+![Screenshot (823)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/e03d8f77-f5da-41a1-863e-45a1b51bff21)
+![Screenshot (824)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/736a25f6-3970-425d-b518-b33828a19e39)
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/91c6e3f3-498a-4462-8666-1b41af34122e)
+![Screenshot (826)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/d8b4dded-d6cf-48fa-91d2-b895a46cb30f)
