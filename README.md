@@ -33,13 +33,39 @@ Performing naming conventions on a dataset is crucial for enhancing its clarity 
 
 ![Screenshot (798)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/5783d45d-2474-43c2-929f-04cee707bb82)
 ![Screenshot (799)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/24cea33a-1651-4550-b38b-7ded413e0591)
+![Screenshot (800)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/c08e6d00-aa3f-4cbf-bc18-342d8697fe83)
+
+![Screenshot (801)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/c5445d4d-6eb5-4a05-9657-dde71eb8e921)
+
+![Screenshot (802)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/d8ff4c5f-62c8-4c9d-9fd7-23d0c9be0519)
 
 
+![Screenshot (803)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/54739fdf-9d14-4bb8-8fb0-36bbb54fc9d3)
+
+![Screenshot (804)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/1676a549-fa6a-4a6f-b805-b50822a6c4f7)
 
 
+![Screenshot (805)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/815de9f2-446c-4b83-bac0-36365bed74af)
+
+![Screenshot (805)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/4e190f41-989a-4e2b-8da6-a54adaaf7e59)
+
+Performing missing values treatment is a crucial step in data preprocessing, essential for ensuring the integrity and reliability of subsequent analyses. This process involves identifying missing values within the dataset using pandas functions like isnull() or info(), followed by determining the most appropriate method for handling them. Imputation techniques, such as replacing missing values with mean, median, or mode, offer a common approach, while deletion strategies involve removing rows or columns with missing data. Validation of the treatment's effectiveness is vital, typically achieved by rechecking for missing values post-treatment. Documenting the entire process enhances transparency and reproducibility, facilitating robust data analysis and interpretation.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+![Screenshot (806)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/eff9016d-a2f8-422e-8999-1eed09ef2116)
+
+![Screenshot (807)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/df752c71-5a85-43c8-8d26-01313e24486f)
+
+![Screenshot (808)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/f009d099-5cd6-4438-a13b-a2d8920ff924)
+
+The code snippet identifies categorical and numerical variables within a dataset using list comprehensions in Python. For categorical variables, it iterates through the columns and selects those with object data type ('O'). Similarly, for numerical variables, it identifies columns with non-object data types. This approach efficiently categorizes variables based on their data types, facilitating tailored data analysis and preprocessing. By separating variables into categorical and numerical groups, it enables targeted treatment and exploration, enhancing understanding and insights from the dataset.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+![Screenshot (810)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/ae1a2e2c-e378-4a56-82ae-c53e0e05a40c)
+![Screenshot (811)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/8d4271cd-918b-4f8b-bc8f-ec91b6676844)
+![Screenshot (812)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/61e2b20c-4178-4f2d-8d86-3753b88da053)
+![Screenshot (813)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/c1446927-01ad-47ee-8234-c43e3783db02)
 
-
+![Screenshot (814)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/ee686d04-9cb0-4129-91b9-2e6da14a6f58)
 
 
