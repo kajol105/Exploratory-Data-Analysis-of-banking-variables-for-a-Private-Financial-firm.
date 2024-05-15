@@ -114,4 +114,16 @@ sns.boxplot(num_data.Amount_Requested)
 ![Screenshot (823)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/e03d8f77-f5da-41a1-863e-45a1b51bff21)
 ![Screenshot (824)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/736a25f6-3970-425d-b518-b33828a19e39)
 ![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/91c6e3f3-498a-4462-8666-1b41af34122e)
-![Screenshot (826)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/d8b4dded-d6cf-48fa-91d2-b895a46cb30f)
+
+![Screenshot (925)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/6c0b6faa-cbfc-4f60-acac-25bc492ca0d9)
+
+![Screenshot (926)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/a135107f-b4e1-4007-a0c2-625a63e97b47)
+
+![Screenshot (927)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/27a6c010-631e-4564-aa8d-ac1e9e00432e)
+
+
+![Screenshot (928)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/e142a298-2fbe-4cd1-998c-473489449764)
+
+
+![Screenshot (929)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/66019653-59a5-4fe1-8113-ba6ddfa1ca8a)
+
