@@ -160,3 +160,74 @@ plt.title("Distribution of customers by their State.")
 plt.xlabel("States")
 plt.ylabel("No of customers")
 ![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/38889059-aab4-4f08-88a1-01ebb4523844)
+
+This code snippet prints the value counts of the 'State' column in the dataset and visualizes the distribution of customers by state using a bar plot. The printed counts provide insights into the frequency of occurrence of each state in the dataset, while the bar plot offers a graphical representation of this distribution, facilitating easier interpretation and analysis.
+
+print(data['Loan_Purpose'].value_counts())
+data['Loan_Purpose'].value_counts().plot(kind = 'bar',color = 'red',figsize = (15,10))
+plt.title("Distribution of customers by their Loan_Purpose.")
+plt.xlabel("Loan.Purpose")
+plt.ylabel("No of customers")
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/42a00a3b-b233-4580-9da4-d58ece67bdb8)
+This code snippet calculates the value counts of the 'Loan_Purpose' column in the dataset, providing insights into the frequency of each loan purpose. Subsequently, it visualizes the distribution of customers by their loan purpose using a bar plot, where each bar represents the number of customers associated with a specific loan purpose. The plot aids in understanding the distribution pattern and identifying predominant loan purposes among customers. The code employs the matplotlib library for plotting, setting appropriate labels for clarity, and ensures readability by specifying the figure size.
+
+print(data['Home_Ownership'].value_counts())
+data['Home_Ownership'].value_counts().plot(kind = 'bar',color = 'blue',figsize = (8,5))
+plt.title("Distribution of customers by their Home_Ownership.")
+plt.xlabel("Home_Ownership")
+plt.ylabel("No of customers")
+
+This code segment prints the value counts of the 'Home_Ownership' column in the dataset, revealing the frequency of each home ownership category among customers. It then generates a bar plot to visualize this distribution, providing insights into the distribution pattern and predominant types of home ownership among customers. The matplotlib library is utilized for plotting, and appropriate labels are set for clarity, while the figure size is specified for readability.
+
+import pandas as pd
+import matplotlib.pyplot as plt
+plt.figure(figsize=(15,8))
+plt.scatter(data['Amount_Requested'],data['Interest_Rate'])
+plt.title("Amount Requested vs Interest Rate Comparison Analysis")
+plt.xlabel('Amount_Requested')
+plt.ylabel('Interest_Rate')
+plt.colorbar()
+plt.show()
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/332fedd5-7930-48ab-99b5-b7256c203fa4)
+
+**Most of the people have requested for a loan amount upto $15000 which mostly fetches interest rate between 7.5 to 15 percent as per the above visualization analysis.**
+
+import pandas as pd
+import matplotlib.pyplot as plt
+plt.figure(figsize=(15,8))
+plt.scatter(data['Interest_Rate'],data['Debt_To_Income_Ratio'])
+plt.title("Interest Rate vs Debt to Income Ratio Comparison Analysis")
+plt.xlabel('Interest_Rate')
+plt.ylabel('Debt_To_Income_Ratio')
+plt.colorbar()
+plt.show()
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/7cf0a3a6-459d-43fa-9562-6b3873041ac1)
+# ** As the Interest rate increases, the debt to income ratio might also increase, indicating a potential correlation.
+
+import pandas as pd
+import matplotlib.pyplot as plt
+plt.hist(data['Interest_Rate'],color='purple')
+plt.title("Analyzing Interest Rate")
+plt.show()
+
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/fc842aac-5df1-41d3-b937-9e5710171562)
+
+sns.displot(data.Interest_Rate,kde=True)
+
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/a3ce035f-a697-4949-ab48-bec8223c21d5)
+
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+sns.histplot(x='Amount_Funded_By_Investors',data=data,kde=True,hue='Home_Ownership')
+plt.show()
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/8f6de017-c0a5-42bc-beef-7922627b3288)
+
+
+plt.figure(figsize = (20,10))
+sns.heatmap(data.corr(), annot = True)
+plt.title("Correlational Analysis of all the variables.")
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/ff6c88c6-dc9b-4e1b-8eac-a28caf56fb18)
+
+# Conclusion
+The process of data analysis in Python begins with exploratory data analysis (EDA), a crucial step to understand the dataset's structure, features, and underlying patterns. Through descriptive statistics and visualizations like histograms and correlation matrices, analysts gain insights into relationships and distributions within the data. Following EDA, attention turns to data preprocessing tasks, including changing column names for improved clarity and treating missing values. Missing values, identified using functions like isnull(), are often imputed using methods such as mean, median, or mode. Visualizations, such as heatmaps or bar plots, aid in understanding the distribution and patterns of missing values within the dataset. Additionally, categorical variables are transformed into a suitable format for machine learning algorithms through one-hot encoding. This involves creating binary columns for each category using functions like get_dummies(), facilitating the seamless integration of categorical data into predictive modeling workflows. Overall, this iterative process equips analysts with the tools necessary to derive meaningful insights and make informed decisions from their datasets.
