@@ -125,4 +125,38 @@ sns.boxplot(num_data.Amount_Requested)
 
 
 ![Screenshot (929)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/66019653-59a5-4fe1-8113-ba6ddfa1ca8a)
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/e4416bfa-b899-4059-9e0f-b00bef76077c)
 
+num_data['Interest Rate'] = num_data.Interest_Rate.clip(lower = 1.70, upper = 24.26)
+sns.boxplot(num_data.Interest_Rate)
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/0edf2725-7561-4d5d-bd0e-b873334091c4)
+
+num_data['FICO_Range'] = num_data.FICO_Range.clip(lower = 612.5, upper = 792.5)
+sns.boxplot(num_data.FICO_Range)
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/c8c2d4fe-ad50-42fc-8e44-100c663b950a)
+
+num_data['Open_CREDIT_Lines'] = num_data.Open_CREDIT_Lines.clip(lower = -2.0, upper = 22.0)
+sns.boxplot(num_data.Open_CREDIT_Lines)
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/d12554b5-1d0b-479c-ada5-3c8ed6d6e5be)
+
+num_data['Inquiries_in_the_Last_6_Months'] = num_data.Inquiries_in_the_Last_6_Months.clip(lower = -1.5, upper = 2.5)
+sns.boxplot(num_data.Inquiries_in_the_Last_6_Months)
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/c431ff17-8e83-4271-92bf-267e20a0329c)
+
+
+![Screenshot (930)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/b83390cc-474c-4126-a78a-eaba3c74f206)
+![Screenshot (931)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/d10f2c8f-073e-4439-8324-ea9fdf68c242)
+![Screenshot (933)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/afe9fe38-fb69-4017-bf96-5e60806fa4d3)
+
+# DATA VISUALIZATION ON THE BASIS OF ABOVE DATA:
+![Screenshot (934)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/b27bb699-3fb3-4ae2-8288-89e2ed53ed2b)
+
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/d57ef6b8-2a0c-4f9c-a428-ec2dd3d28b12)
+### ** The above graph is showing that the period of 36 has more customers than the period of 60 months.**
+
+print(data['States'].value_counts())
+data['States'].value_counts().plot(kind = 'bar',color = 'yellow',figsize = (20,15))
+plt.title("Distribution of customers by their State.")
+plt.xlabel("States")
+plt.ylabel("No of customers")
+![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/38889059-aab4-4f08-88a1-01ebb4523844)
