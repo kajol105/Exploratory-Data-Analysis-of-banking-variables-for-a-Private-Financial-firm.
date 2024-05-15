@@ -113,7 +113,6 @@ sns.boxplot(num_data.Amount_Requested)
 
 ![Screenshot (823)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/e03d8f77-f5da-41a1-863e-45a1b51bff21)
 ![Screenshot (824)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/736a25f6-3970-425d-b518-b33828a19e39)
-![image](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/91c6e3f3-498a-4462-8666-1b41af34122e)
 
 ![Screenshot (925)](https://github.com/kajol105/Exploratory-Data-Analysis-of-banking-variables-for-a-Private-Financial-firm./assets/55199887/6c0b6faa-cbfc-4f60-acac-25bc492ca0d9)
 
